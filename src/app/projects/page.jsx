@@ -3,7 +3,6 @@ import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 import logoHefaistos from '@/images/hefaistos.png'
 import logoAnanke from '@/images/ananke.png'
-import logoPlanetaria from '@/images/logos/helio-stream.svg'
 import logoEris from '@/images/eris.png'
 
 const projects = [
