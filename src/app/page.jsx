@@ -13,7 +13,6 @@ import {
 } from '@/components/SocialIcons'
 import logoHefaistos from '@/images/hefaistos.png'
 import logoAnanke from '@/images/ananke.png'
-import logoPlanetaria from '@/images/logos/helio-stream.svg'
 import logoEris from '@/images/eris.png'
 import image3 from '@/images/1.jpeg'
 import image2 from '@/images/2.jpg'
