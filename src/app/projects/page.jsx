@@ -11,7 +11,7 @@ const projects = [
     description:
       'Education of Blockchain Technologhy',
     link: { href: 'https://github.com/pabobernando', label: 'github.com' },
-    logo: logoPlanetaria,
+    logo: logoAnanke,
   },
   {
     name: 'Ananke',

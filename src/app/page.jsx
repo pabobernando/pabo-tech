@@ -174,7 +174,7 @@ function Resume() {
     {
       company: 'Linken',
       title: 'Software Designer & Engineer',
-      logo: logoPlanetaria,
+      logo: logoAnanke,
       start: '2023',
       end: {
         label: 'Present',
