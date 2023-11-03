@@ -10,12 +10,7 @@ export const metadata = {
       'Pabo Bernando - Software designer, engineer',
   },
   description:
-    'I’m Pabo Bernando, a software designer and Engineer based in Yogyakarta City.',
-  alternates: {
-    types: {
-      'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
-    },
-  },
+    'I’m Pabo Bernando, a software designer and Engineer based in Yogyakarta City.'
 }
 
 export default function RootLayout({ children }) {
