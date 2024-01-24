@@ -63,7 +63,7 @@ export default function About() {
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-            Hello, I'm Pabo Bernando, a software designer and engineer
+            Hello, I'm Pabo Bernando, a software engineer
              based in Yogyakarta, Indonesia. I'm passionate about technology
               and I'm always looking for ways to use it to make the world a
                better place.

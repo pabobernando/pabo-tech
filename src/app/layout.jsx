@@ -7,10 +7,10 @@ export const metadata = {
   title: {
     template: '%s - Pabo Bernando',
     default:
-      'Pabo Bernando - Software designer, engineer',
+      'Pabo Bernando - Software engineer',
   },
   description:
-    'I’m Pabo Bernando, a software designer and Engineer based in Yogyakarta City.'
+    'I’m Pabo Bernando, a software Engineer based in Yogyakarta City.'
 }
 
 export default function RootLayout({ children }) {
