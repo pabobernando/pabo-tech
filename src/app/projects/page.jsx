@@ -14,10 +14,10 @@ const projects = [
     logo: logoAnanke,
   },
   {
-    name: 'Ananke',
+    name: 'Kewr Node',
     description:
-      'Dashboard for Cosmos Ecosystem',
-    link: { href: 'https://github.com/pabobernando', label: 'github.com' },
+      'Kewr Node for Cosmos Ecosystem',
+    link: { href: 'https://github.com/pabobernando', label: 'kewrnode.com' },
     logo: logoAnanke,
   },
   {

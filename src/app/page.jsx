@@ -14,11 +14,11 @@ import {
 import logoHefaistos from '@/images/hefaistos.png'
 import logoAnanke from '@/images/ananke.png'
 import logoEris from '@/images/eris.png'
-import image3 from '@/images/1.jpeg'
-import image2 from '@/images/2.jpg'
-import image5 from '@/images/1.jpg'
-import image4 from '@/images/4.jpeg'
-import image1 from '@/images/2.jpeg'
+import image3 from '@/images/9.jpeg'
+import image2 from '@/images/6.jpeg'
+import image5 from '@/images/1.jpeg'
+import image4 from '@/images/7.jpeg'
+import image1 from '@/images/8.jpeg'
 import { getAllArticles } from '@/lib/articles'
 import { formatDate } from '@/lib/formatDate'
 
@@ -84,9 +84,7 @@ function ArrowDownIcon(props) {
 function Article({ article }) {
   return (
     <Card as="article">
-      <Card.Title>
-        {article.title}
-      </Card.Title>
+      <Card.Title>{article.title}</Card.Title>
       <Card.Eyebrow as="time" dateTime={article.date} decorate>
         {formatDate(article.date)}
       </Card.Eyebrow>
@@ -270,8 +268,10 @@ export default async function Home() {
             Software engineer.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-          I’m Pabo Bernando, a software engineer based in Yogyakarta City. I’m the part of Kewr
-           Foundation, where we develop technology that empowers ordinary people to explore blockchain technology in their own way.
+            I’m Pabo Bernando, a software engineer based in Yogyakarta City. I’m
+            the part of Kewr Foundation, where we develop technology that
+            empowers ordinary people to explore blockchain technology in their
+            own way.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink

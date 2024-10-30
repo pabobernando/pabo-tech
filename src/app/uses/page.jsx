@@ -37,32 +37,24 @@ export default function Uses() {
       <div className="space-y-20">
         <ToolsSection title="WorkStation">
           <Tool title="Huawei MateBook D 14 (2021 - Present)">
-          Core i5 10TH GEN, 8GB RAM & Linux Mint
+            Core i5 10TH GEN, 8GB RAM & Linux Mint
           </Tool>
           <Tool title="MacBook Pro M2 (2023)">
-          512GB ,13 inc, 8GB RAM & macOS Sonoma 14.1
+            512GB ,13 inc, 8GB RAM & macOS Sonoma 14.1
           </Tool>
-          <Tool title="Monitor MSI">
-            OPTIX G241V
-          </Tool>
-          <Tool title="Keyboard Vortex Series">
-            87 Keys MECA VX7
-          </Tool>
-          <Tool title="Mouse Logitech">
-            G102
-          </Tool>
+          <Tool title="Monitor MSI">OPTIX G241V</Tool>
+          <Tool title="Keyboard Vortex Series">87 Keys MECA VX7</Tool>
+          <Tool title="Mouse Logitech">G102</Tool>
         </ToolsSection>
         <ToolsSection title="Development tools">
           <Tool title="Visual Studio Code">
             I don’t care if it’s missing all of the fancy IDE features everyone
-            else relies on, Visual Studio Code is still the best text editor ever
-            made.
+            else relies on, Visual Studio Code is still the best text editor
+            ever made.
           </Tool>
         </ToolsSection>
         <ToolsSection title="Design">
-          <Tool title="Figma">
-            Web Design & Mobile Design
-          </Tool>
+          <Tool title="Figma">Web Design & Mobile Design</Tool>
         </ToolsSection>
       </div>
     </SimpleLayout>
