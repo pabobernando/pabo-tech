@@ -7,30 +7,29 @@ import logoEris from '@/images/eris.png'
 
 const projects = [
   {
-    name: 'Linken',
-    description:
-      'Education of Blockchain Technologhy',
-    link: { href: 'https://github.com/pabobernando', label: 'github.com' },
+    name: 'Kewrmint',
+    description: 'Application for minting $PHOTON tokens',
+    link: {
+      href: 'https://mintphoton.netlify.app/',
+      label: 'mintphoton.netlify.app',
+    },
     logo: logoAnanke,
   },
   {
     name: 'Kewr Node',
-    description:
-      'Kewr Node for Cosmos Ecosystem',
+    description: 'Kewr Node for Cosmos Ecosystem',
     link: { href: 'https://github.com/pabobernando', label: 'kewrnode.com' },
     logo: logoAnanke,
   },
   {
     name: 'Hefaistos',
-    description:
-      'Relayer for Cosmos Ecosystem',
+    description: 'Relayer for Cosmos Ecosystem',
     link: { href: 'https://github.com/pabobernando', label: 'github.com' },
     logo: logoHefaistos,
   },
   {
     name: 'Eris',
-    description:
-      'Add Chains',
+    description: 'Add Chains',
     link: { href: 'https://github.com/pabobernando', label: 'github.com' },
     logo: logoEris,
   },

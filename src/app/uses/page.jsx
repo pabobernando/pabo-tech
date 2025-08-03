@@ -39,8 +39,8 @@ export default function Uses() {
           <Tool title="Huawei MateBook D 14 (2021 - Present)">
             Core i5 10TH GEN, 8GB RAM & Linux Mint
           </Tool>
-          <Tool title="MacBook Pro M2 (2023)">
-            512GB ,13 inc, 8GB RAM & macOS Sonoma 14.1
+          <Tool title="MacBook Pro M2 (2023 - present)">
+            512GB ,13 inc, 8GB RAM & macOS Sequoia 15.5
           </Tool>
           <Tool title="Monitor MSI">OPTIX G241V</Tool>
           <Tool title="Keyboard Vortex Series">87 Keys MECA VX7</Tool>

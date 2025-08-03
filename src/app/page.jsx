@@ -180,8 +180,8 @@ function Resume() {
       },
     },
     {
-      company: 'Ananke',
-      title: 'Software Engineer',
+      company: 'Hefaistos',
+      title: 'Product Owner',
       logo: logoAnanke,
       start: '2023',
       end: {
@@ -190,20 +190,20 @@ function Resume() {
       },
     },
     {
-      company: 'Hefaistos',
-      title: 'Product Owner',
-      logo: logoHefaistos,
-      start: '2023',
+      company: 'Xchess',
+      title: 'Software Engineer',
+      logo: logoAnanke,
+      start: '2025',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear().toString(),
       },
     },
     {
-      company: 'Eris',
+      company: '22node',
       title: 'Software Engineer',
-      logo: logoEris,
-      start: '2023',
+      logo: logoAnanke,
+      start: '2025',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear().toString(),
@@ -215,7 +215,7 @@ function Resume() {
     <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <BriefcaseIcon className="h-6 w-6 flex-none" />
-        <span className="ml-3">Project</span>
+        <span className="ml-3">Projects</span>
       </h2>
       <ol className="mt-6 space-y-4">
         {resume.map((role, roleIndex) => (
@@ -268,10 +268,10 @@ export default async function Home() {
             Software engineer.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Pabo Bernando, a software engineer based in Yogyakarta City. I’m
-            the part of Kewr Foundation, where we develop technology that
-            empowers ordinary people to explore blockchain technology in their
-            own way.
+            I’m Pabo Bernando, a software engineer based in Yogyakarta City with
+            a focus on frontend development. I’m part of the Kewr Foundation and
+            contribute as an engineer at "22node", one of the Node on the
+            AtomOne network.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink

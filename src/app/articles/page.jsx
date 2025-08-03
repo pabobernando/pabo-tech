@@ -6,8 +6,8 @@ import { formatDate } from '@/lib/formatDate'
 function Article({ article }) {
   return (
     <article className="md:grid md:grid-cols-4 md:items-baseline">
-      <Card className="md:col-span-3 text-cyan-500">
-      {article.title}
+      <Card className="text-cyan-500 md:col-span-3">
+        {article.title}
         <Card.Eyebrow
           as="time"
           dateTime={article.date}
@@ -41,7 +41,9 @@ export default async function ArticlesIndex() {
   return (
     <SimpleLayout
       title="The Future of Technologhy"
-      intro="The future of technology is a topic of much debate. Some experts believe that we are on the verge of a technological revolution"
+      intro="The future of technology is a topic of much debate. Some experts believe that we are on the verge of a technological revolution.
+
+Disclaimer: Everything I write is based on my personal opinion. For official information and complete documentation, please visit the official website."
     >
       <div className="md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">
         <div className="flex max-w-3xl flex-col space-y-16">
