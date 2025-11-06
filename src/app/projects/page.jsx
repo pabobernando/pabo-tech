@@ -28,8 +28,8 @@ const projects = [
     logo: logoHefaistos,
   },
   {
-    name: 'Eris',
-    description: 'Add Chains',
+    name: 'Xchess',
+    description: 'Management Tournament for Chess',
     link: { href: 'https://github.com/pabobernando', label: 'github.com' },
     logo: logoEris,
   },
